@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8C00">
+<RelativeLayout
+    android:layout_width="140dp"
+    android:layout_height="140dp">
+<RelativeLayout
+    android:layout_width="80dp"
+    android:id="@+id/clean_click"
+    android:layout_centerInParent="true"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/clean_pic1"
+       android:background="@drawable/btn_a" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/clean_pic2"
+        android:background="@drawable/slient" />
+
+</RelativeLayout>
+    <com.socks.androiddemo.point.PointView
+        android:layout_width="match_parent"
+        android:id="@+id/smallview"
+        android:layout_height="match_parent"  />
+</RelativeLayout>
+</RelativeLayout>
